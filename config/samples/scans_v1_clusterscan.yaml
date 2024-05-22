@@ -1,0 +1,7 @@
+apiVersion: scans.mydomain.com/v1
+kind: ClusterScan
+metadata:
+  name: sample-scan
+spec:
+  schedule: "*/5 * * * *"
+  oneOff: false
